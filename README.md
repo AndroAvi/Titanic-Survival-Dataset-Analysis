@@ -26,9 +26,9 @@ As of now, I've managed to:
 1. Clean the dataset by removing useless and missing values.
 2. Visualized individual features' correlation with the label.
 3. Plotted some clear biases to survival.
+4. Converted non numerical categorical features into numerical ones.
+5. Started attempt on conversion of some features into categorical based on it's correlation with survival.
 
 What remains to be done:
-1. Observing correlation among features.
-2. Coming up with new (possibly categorical) features by combining one or more features based on the results of step 1.
-3. After the data wrangling, training and comparing the performance of various classifiers.
-
+1. Finishing the data wrangling part.
+2. Training various models and comparing their accuracy.
