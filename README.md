@@ -19,16 +19,16 @@ The notebook contains the following files:
 1. training_data.csv : The training data which I've analyzed.
 2. test_data.csv: The test data to train the classifier model on.
 3. ground_truth.csv: The actual class labels for test_data.csv for confidence and accuracy score calculation.
-4. titanic_survival.csv: The ipython shell or jupyter notebook which consists of explanation and code in python.
+4. titanic_survival.csv: The jupyter notebook which consists of explanation and code in python.
 
 
 As of now, I've managed to:
-1. Clean the dataset by removing useless and missing values.
+1. Clean the dataset by removing useless and filling the missing values.
 2. Visualized individual features' correlation with the label.
 3. Plotted some clear biases to survival.
 4. Converted non numerical categorical features into numerical ones.
-5. Started attempt on conversion of some features into categorical based on it's correlation with survival.
+5. Converted quantitative features into ordinal features based on their correlation with survival.
+6. Built a pipeline and trained 7 classifers and compared their scores.
 
 What remains to be done:
-1. Finishing the data wrangling part.
-2. Training various models and comparing their accuracy.
+1. Finishing the markdown cells.
