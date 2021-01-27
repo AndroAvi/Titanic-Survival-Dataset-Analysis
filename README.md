@@ -11,9 +11,8 @@ This relatively small dataset expemplifies many of the practical problems that o
 3. Different kinds of features-categorical, ordinal, numeric, alphanumeric, as well as textual.
 4. Outliers
 
-My goal here is to present and implement various methods of understanding the information contained inside the dataset that I've learnt through numerous books and courses.
+The goal here is to present and implement various methods of understanding the information contained inside the dataset that is explained with abstract information in several books and courses.
 
-In many ways, this is the first project that I'm doing to showcase the practices.
 
 The notebook contains the following files:
 1. training_data.csv : The training data which I've analyzed.
@@ -22,13 +21,11 @@ The notebook contains the following files:
 4. titanic_survival.csv: The jupyter notebook which consists of explanation and code in python.
 
 
-As of now, I've managed to:
+A basic outline of the workflow: 
 1. Clean the dataset by removing useless and filling the missing values.
-2. Visualized individual features' correlation with the label.
-3. Plotted some clear biases to survival.
-4. Converted non numerical categorical features into numerical ones.
-5. Converted quantitative features into ordinal features based on their correlation with survival.
-6. Built a pipeline and trained 7 classifers and compared their scores.
-
-What remains to be done:
-1. Finishing the markdown cells.
+2. Visualize individual features' correlation with the label.
+3. Plot feature grids to observe biases with survival and within features and wrangle accordingly.
+4. Categorize the feature types.
+5. Convert non numerical categorical features into numerical ones.
+6. Convert quantitative features into ordinal features based on their correlation with survival.
+7. Using the scaler and model object(s) of one's choice, pipeline the training process and print the average accuracy.
